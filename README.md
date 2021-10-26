@@ -5,8 +5,8 @@
 
 - [Learning Outcome](#learning-outcome)
 - [Procedure](#procedures)
-- [Reference](reference)
-- [Author](author)
+- [Reference](#reference)
+- [Author](#author)
 ---
 
 
@@ -46,4 +46,4 @@ The useful Resources used whilst building the project are
 
 ###### AUTHOR
 - Website - [Ikeoluwa](github.com/IkeoluwaAshade/)
-- Twitter - [@IkeoluwaAshade](http://twitter.com/@IkeoluaAshade)
+- Twitter - [@IkeoluwaAshade](http://twitter.com/@IkeoluaAshade/)
