@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Lets know how you feel about our product and services...
+    I bet you this will not take more than 5minutes of your time.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Survey Form </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <header class="header">
+        <h1 id="topword" class="text-center"> INCREDIBLE GLOBAL NETWORK <br> Survey Form </h1>
+        <p id="vote-of-thanks" class="vote-of-thanks text-center"> Thank you for taking out your precious time to help improve our platform </p>
+      </header>
+    </div>
+
+
+
+
+
+      <form id="survey-form" action="mailto:reachme.ikeoluwa@gmail.com" method="post" enctype="text/plain">
+        <div class="group-form">
+          <label id="name-label" for="name"> NAME: </label>
+          <input type="text" name="Full name" class="control-form"
+          placeholder="Enter your full name" required />
+        </div>
+
+          <div class="group-form">
+            <label id="email-label" for="email"> Email: </label>
+            <input type="email" name="email" class="control-form"
+            placeholder="Enter your Email" required />
+        </div>
+
+        <div class="group-form">
+          <label id="phone-no" for="phone no"> phone no: </label>
+          <input type="numeric" name="phone no" class="control-form"
+          placeholder="Enter your phone no here" maxlength="11" required />
+        </div>
+
+        <div class="group-form">
+          <label id="number-label" for="number"> Age: <span class="clue"> (Optional)</span> </label>
+          <input type="date" name="Age" class="control-form"
+          placeholder="Age" required />
+        </div>
+
+          <div class="group-form">
+            <p> Which option best describes your current role? </p>
+          <select id="dropdrown" name="role" class="form-control" required/>
+            <option disabled selected value>select current value role</option>
+            <option value="student"> Student </option>
+            <option value="job">Full time job</option>
+            <option value="learner">Full time learner</option>
+            <option value="not-to">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+          </div>
+
+          <div class="group-form">
+            <p>Would you recommend Incredible Global to a colleague?</p>
+          <label>
+            <input name="refferal"
+            value="definitely"
+            type="radio"
+            class="input-radio"/> Definitely
+          </label>
+
+          <label>
+            <input name="refferal"
+            value="Maybe"
+            type="radio"
+            class="input-radio"/> Maybe
+          </label>
+
+          <label>
+            <input name="refferal"
+            value="Not Sure"
+            type="radio"
+            class="input-radio"/> Not Sure
+          </label>
+          </div>
+
+          <div class="group-form">
+            <p>What would you like Incredible Global to improve on
+            <span class="clue">(check all that apply)
+            </span>
+            </p>
+            <label>
+              <input name="perfer"
+              value="Customer Service"
+              type="checkbox"
+              class="input-checkbox"/> Customer Service
+            </label>
+
+
+
+            <label>
+              <input name="perfer"
+              value="Quick Response"
+              type="checkbox"
+              class="input-checkbox"/> Quick Response
+            </label>
+
+
+            <label>
+              <input name="perfer"
+              value="Clear Sight"
+              type="checkbox"
+              class="input-checkbox"/> Clear Sight
+            </label>
+
+
+
+            <label>
+              <input name="perfer"
+              value="Designs"
+              type="checkbox"
+              class="input-checkbox"/> Designs
+            </label>
+          </div>
+
+
+
+          <div class="group-form">
+            <p>Any Comments or Suggestions</p>
+            <textarea id="Comment" class="enter-textarea"   rows="8" name="Comment" cols="168"
+            placeholder="Enter your Comment here..."></textarea>
+          </div>
+
+          <div class="group-form">
+            <button type="submit" name="submit" class="submit-button">Submit</button>
+          </div>
+
+      </form>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
