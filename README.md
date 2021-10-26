@@ -45,5 +45,5 @@ The useful Resources used whilst building the project are
 
 
 ###### AUTHOR
-- Website - [Ikeoluwa](github.com/IkeoluwaAshade/)
-- Twitter - [@IkeoluwaAshade](http://twitter.com/@IkeoluaAshade/)
+- Website - [Ikeoluwa](https://github.com/IkeoluwaAshade/)
+- Twitter - [@IkeoluwaAshade](https://twitter.com/@IkeoluaAshade/)
